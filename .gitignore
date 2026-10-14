@@ -1,0 +1,24 @@
+# Este projeto
+# Os dados são pequenos (menos de 300 KB) e públicos, por isso ficam versionados.
+# Relatórios gerados localmente que são grandes demais para o repositório:
+relatorios/profile_report.html
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Ambientes virtuais e variáveis de ambiente
+.venv/
+venv/
+env/
+.env
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
