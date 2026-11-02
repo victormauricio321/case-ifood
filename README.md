@@ -181,15 +181,6 @@ lista_de_contatos = clientes.index[probabilidades >= artefato["limiar"]]
 └── LICENSE
 ```
 
-## Limitações e próximos passos
-
-- O conjunto de teste tem só 62 aceites; o intervalo do *bootstrap* mostra a incerteza do lucro estimado.
-- O modelo supõe que a próxima campanha se comporta como o piloto (mesma oferta, canal, custo e receita).
-- Não se sabe se variáveis como `Recency` foram medidas antes ou depois do piloto, o que precisaria ser
-  confirmado antes de usar o modelo em produção.
-- Próximos passos: validar com teste A/B, comparar modelos de *gradient boosting* pelo lucro e reduzir
-  variáveis redundantes.
-
 ## Créditos
 
 Projeto desenvolvido durante a formação em Ciência de Dados da Hashtag Treinamentos, a partir do case público de
